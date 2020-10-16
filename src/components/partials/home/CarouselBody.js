@@ -37,7 +37,7 @@ export default function CarouselBody() {
                 setDesno(d => d + 1)
             }
         }, 2000)
-        return clearTimeout(changedesc)
+        return () => clearTimeout(changedesc)
     }, [desno, descriptions.length])
     return (
         <div className="carousel-body">
