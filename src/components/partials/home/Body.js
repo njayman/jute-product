@@ -16,7 +16,6 @@ export default function HomeBody() {
                     <li>Provide best tools ever.</li>
                     <li>Lifetime updates and support.</li>
                 </ul>
-                <h2></h2>
             </div>
         </div>
     )
